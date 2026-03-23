@@ -1,0 +1,12 @@
+/workspaces/practice/src/Domain/obj/Debug/net10.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/practice/src/Domain/bin/Debug/net10.0/Domain.deps.json
+/workspaces/practice/src/Domain/bin/Debug/net10.0/Domain.dll
+/workspaces/practice/src/Domain/bin/Debug/net10.0/Domain.pdb
+/workspaces/practice/src/Domain/obj/Debug/net10.0/Domain.AssemblyInfoInputs.cache
+/workspaces/practice/src/Domain/obj/Debug/net10.0/Domain.AssemblyInfo.cs
+/workspaces/practice/src/Domain/obj/Debug/net10.0/Domain.csproj.CoreCompileInputs.cache
+/workspaces/practice/src/Domain/obj/Debug/net10.0/Domain.sourcelink.json
+/workspaces/practice/src/Domain/obj/Debug/net10.0/Domain.dll
+/workspaces/practice/src/Domain/obj/Debug/net10.0/refint/Domain.dll
+/workspaces/practice/src/Domain/obj/Debug/net10.0/Domain.pdb
+/workspaces/practice/src/Domain/obj/Debug/net10.0/ref/Domain.dll
