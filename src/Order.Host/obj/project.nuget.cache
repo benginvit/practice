@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "aaKB8qmo4R8=",
+  "success": true,
+  "projectFilePath": "/workspaces/practice/src/Order.Host/Order.Host.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0/microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/nservicebus/10.1.0/nservicebus.10.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/nservicebus.extensions.hosting/4.0.0/nservicebus.extensions.hosting.4.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/nservicebus.messageinterfaces/1.0.0/nservicebus.messageinterfaces.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

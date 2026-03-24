@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jzw6vwo3x10=",
+  "success": true,
+  "projectFilePath": "/workspaces/practice/src/Order.NSB.Infra/Order.NSB.Infra.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration/10.0.2/microsoft.extensions.configuration.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.2/microsoft.extensions.configuration.abstractions.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration.binder/10.0.2/microsoft.extensions.configuration.binder.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.2/microsoft.extensions.dependencyinjection.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.2/microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.diagnostics/10.0.2/microsoft.extensions.diagnostics.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.diagnostics.abstractions/10.0.2/microsoft.extensions.diagnostics.abstractions.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.options/10.0.2/microsoft.extensions.options.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.options.configurationextensions/10.0.2/microsoft.extensions.options.configurationextensions.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.primitives/10.0.2/microsoft.extensions.primitives.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/nservicebus/10.1.0/nservicebus.10.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/nservicebus.messageinterfaces/1.0.0/nservicebus.messageinterfaces.1.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.security.cryptography.pkcs/10.0.2/system.security.cryptography.pkcs.10.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.security.cryptography.xml/10.0.2/system.security.cryptography.xml.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

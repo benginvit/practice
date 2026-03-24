@@ -1,0 +1,16 @@
+/workspaces/practice/src/Order.Contracts/bin/Debug/net10.0/Order.Contracts.deps.json
+/workspaces/practice/src/Order.Contracts/bin/Debug/net10.0/Order.Contracts.dll
+/workspaces/practice/src/Order.Contracts/bin/Debug/net10.0/Order.Contracts.pdb
+/workspaces/practice/src/Order.Contracts/bin/Debug/net10.0/Order.Domain.dll
+/workspaces/practice/src/Order.Contracts/bin/Debug/net10.0/Order.Domain.pdb
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/Order.Contracts.csproj.AssemblyReference.cache
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/Order.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/Order.Contracts.AssemblyInfoInputs.cache
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/Order.Contracts.AssemblyInfo.cs
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/Order.Contracts.csproj.CoreCompileInputs.cache
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/Order.Contracts.sourcelink.json
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/Order.Co.25E43474.Up2Date
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/Order.Contracts.dll
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/refint/Order.Contracts.dll
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/Order.Contracts.pdb
+/workspaces/practice/src/Order.Contracts/obj/Debug/net10.0/ref/Order.Contracts.dll

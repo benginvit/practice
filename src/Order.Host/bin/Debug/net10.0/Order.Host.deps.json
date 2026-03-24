@@ -1,0 +1,236 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Order.Host/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "10.0.0",
+          "NServiceBus": "10.1.0",
+          "NServiceBus.Extensions.Hosting": "4.0.0",
+          "Order.Contracts": "1.0.0",
+          "Order.Domain": "1.0.0",
+          "Order.Infra": "1.0.0",
+          "Order.Infra.Db": "1.0.0",
+          "Order.NSB.Infra": "1.0.0",
+          "Order.NSB.Service": "1.0.0",
+          "Order.Service": "1.0.0"
+        },
+        "runtime": {
+          "Order.Host.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/10.0.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "Microsoft.OpenApi/2.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "NServiceBus/10.1.0": {
+        "dependencies": {
+          "NServiceBus.MessageInterfaces": "1.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/NServiceBus.Core.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.0.0"
+          }
+        }
+      },
+      "NServiceBus.Extensions.Hosting/4.0.0": {
+        "dependencies": {
+          "NServiceBus": "10.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/NServiceBus.Extensions.Hosting.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "NServiceBus.MessageInterfaces/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/NServiceBus.MessageInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Order.Contracts/1.0.0": {
+        "dependencies": {
+          "Order.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Order.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Order.Domain/1.0.0": {
+        "runtime": {
+          "Order.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Order.Infra/1.0.0": {
+        "dependencies": {
+          "Order.Domain": "1.0.0",
+          "Order.Service": "1.0.0"
+        },
+        "runtime": {
+          "Order.Infra.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Order.Infra.Db/1.0.0": {
+        "dependencies": {
+          "Order.Domain": "1.0.0",
+          "Order.Service": "1.0.0"
+        },
+        "runtime": {
+          "Order.Infra.Db.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Order.NSB.Infra/1.0.0": {
+        "dependencies": {
+          "NServiceBus": "10.1.0",
+          "Order.Contracts": "1.0.0",
+          "Order.Service": "1.0.0"
+        },
+        "runtime": {
+          "Order.NSB.Infra.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Order.NSB.Service/1.0.0": {
+        "dependencies": {
+          "NServiceBus": "10.1.0",
+          "Order.Contracts": "1.0.0",
+          "Order.Domain": "1.0.0",
+          "Order.Service": "1.0.0"
+        },
+        "runtime": {
+          "Order.NSB.Service.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Order.Service/1.0.0": {
+        "dependencies": {
+          "Order.Contracts": "1.0.0",
+          "Order.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Order.Service.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Order.Host/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0aqIF1t+sA2T62LIeMtXGSiaV7keGQaJnvwwmu+htQdjCaKYARfXAeqp4nHH9y2etpilyZ/tnQzZg4Ilmo/c4Q==",
+      "path": "microsoft.aspnetcore.openapi/10.0.0",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
+      "path": "microsoft.openapi/2.0.0",
+      "hashPath": "microsoft.openapi.2.0.0.nupkg.sha512"
+    },
+    "NServiceBus/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ogiUdk6014LW5aYvEQMSds5ADqQ5JG/1Dp5he8mfXZzNErhTeqr5sDHw6/zDGcd/Dnbh3eZR9GyUfVCSLSQmCw==",
+      "path": "nservicebus/10.1.0",
+      "hashPath": "nservicebus.10.1.0.nupkg.sha512"
+    },
+    "NServiceBus.Extensions.Hosting/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-73aljzhGjTqic6zXzRiK4nuqRagRui7jYCHZjcdne5tE+BtplkbADHY9wa1ZiHSO+H0V1GApq6Kqz9myAdZo9w==",
+      "path": "nservicebus.extensions.hosting/4.0.0",
+      "hashPath": "nservicebus.extensions.hosting.4.0.0.nupkg.sha512"
+    },
+    "NServiceBus.MessageInterfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-siKNnXrwtkWjChQy1rB5ASiHK+000uigiVc2iVpimWG8MhmJfgWQnbeSbmXKDQoMH1BGbIKbQxOHA/TY/Zrvtg==",
+      "path": "nservicebus.messageinterfaces/1.0.0",
+      "hashPath": "nservicebus.messageinterfaces.1.0.0.nupkg.sha512"
+    },
+    "Order.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order.Infra.Db/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order.NSB.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order.NSB.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
