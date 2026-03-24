@@ -14,17 +14,17 @@ public class OrderPaymentSaga : Saga<OrderSagaData>,
         return Task.CompletedTask;
     }
 
-    public Task Handle(OrderPlacedMessage message, IMessageHandlerContext context)
+    public async Task Handle(OrderPlacedMessage message, IMessageHandlerContext context)
     {
         Data.IsPaid = false;
         Data.OrderId = message.OrderId;
-        return Task.CompletedTask;
+        await RequestTimeout(context, TimeSpan.FromHours(24), new PaymentTimeout());
     }
 
-    public async Task Timeout(PaymentTimeout state, IMessageHandlerContext context)
+    public Task Timeout(PaymentTimeout state, IMessageHandlerContext context)
     {
-        await RequestTimeout(context, TimeSpan.FromHours(24), new PaymentTimeout());
         MarkAsComplete();
+        return Task.CompletedTask;
     }
 
     protected override void ConfigureHowToFindSaga(SagaPropertyMapper<OrderSagaData> mapper)

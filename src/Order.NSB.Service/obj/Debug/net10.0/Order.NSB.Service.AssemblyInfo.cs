@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Order.NSB.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4250c1b773d68befc2fdab5e08dd7f1219f5145a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8232a605d4331e848d20fcf9c3f0e169a2827c7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Order.NSB.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Order.NSB.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
