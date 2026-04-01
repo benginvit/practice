@@ -1,7 +1,6 @@
-using Order.Contracts;
 using OrderModel = Order.Domain.Order;
 
-namespace Order.Service;
+namespace Order.Domain;
 
 public interface IOrderService
 {

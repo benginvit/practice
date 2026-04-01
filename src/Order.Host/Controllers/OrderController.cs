@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Order.Service;
+using Order.Domain;
 using OrderModel = Order.Domain.Order;
 
 namespace Order.Host.Controllers;

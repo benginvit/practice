@@ -2,7 +2,7 @@ using OrderModel = Order.Domain.Order;
 
 namespace Order.Infra.Db;
 
-public class OrderRepository : Order.Service.IOrderRepository
+public class OrderRepository : Order.Domain.IOrderRepository
 {
     private static readonly List<OrderModel> _orders = [
         new OrderModel(1, 123, "customer@example.com", new List<string> { "Item1", "Item2" }),

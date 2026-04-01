@@ -10,9 +10,9 @@ namespace Order.NSB.Service;
 public class OrderPlacedEmailHandler : IHandleMessages<OrderPlacedMessage>
 {
     private readonly ILogger<OrderPlacedEmailHandler> _logger;
-    private readonly Order.Service.IEmailService _emailService;
+    private readonly Order.Domain.IEmailService _emailService;
 
-    public OrderPlacedEmailHandler(ILogger<OrderPlacedEmailHandler> logger, Order.Service.IEmailService emailService)
+    public OrderPlacedEmailHandler(ILogger<OrderPlacedEmailHandler> logger, Order.Domain.IEmailService emailService)
     {
         _logger = logger;
         _emailService = emailService;

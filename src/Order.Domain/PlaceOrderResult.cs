@@ -1,4 +1,4 @@
-namespace Order.Contracts;
+namespace Order.Domain;
 
 public record PlaceOrderResult(
     bool Success,

@@ -1,3 +1,3 @@
-namespace Order.Service;
+namespace Order.Domain;
 
 public interface IEvent { }

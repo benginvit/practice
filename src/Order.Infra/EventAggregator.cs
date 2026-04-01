@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Order.Infra;
 
-public class EventAggregator : Order.Service.IEventAggregator
+public class EventAggregator : Order.Domain.IEventAggregator
 {
     private readonly IServiceProvider _serviceProvider;
 
@@ -11,9 +11,9 @@ public class EventAggregator : Order.Service.IEventAggregator
         _serviceProvider = serviceProvider;
     }
 
-    public async Task PublishAsync<T>(T @event) where T : Order.Service.IEvent
+    public async Task PublishAsync<T>(T @event) where T : Order.Domain.IEvent
     {
-        var handlers = _serviceProvider.GetServices<Order.Service.IEventHandler<T>>();
+        var handlers = _serviceProvider.GetServices<Order.Domain.IEventHandler<T>>();
         foreach (var handler in handlers)
             await handler.HandleAsync(@event);
     }

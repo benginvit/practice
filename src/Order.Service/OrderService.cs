@@ -1,4 +1,3 @@
-using Order.Contracts;
 using Order.Domain;
 using Order.Service.Events;
 using Order.Service.Validation;

@@ -2,7 +2,7 @@ using OrderModel = Order.Domain.Order;
 
 namespace Order.Infra.Db;
 
-public class OrderReportService : Order.Service.IOrderReportService
+public class OrderReportService : Order.Domain.IOrderReportService
 {
     public Task<List<OrderModel>> GetOrderHistoryAsync(int customerId)
     {

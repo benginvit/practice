@@ -1,4 +1,4 @@
-using Order.Contracts;
+using Order.Domain;
 using OrderModel = Order.Domain.Order;
 
 namespace Order.Service;

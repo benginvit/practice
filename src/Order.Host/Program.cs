@@ -1,4 +1,5 @@
 using NServiceBus;
+using Order.Domain;
 using Order.Infra;
 using Order.Infra.Db;
 using Order.NSB.Infra;
